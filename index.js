@@ -46,7 +46,7 @@ app.get('/session', (req, res, next) => {
     // make session
     req.session.name = 'session1';
 
-    //accessing session
+    //accessing session 
     console.log(req.session);
 
     //remove session
